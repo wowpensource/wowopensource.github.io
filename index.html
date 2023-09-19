@@ -1,34 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Pre Shift</title>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header><strong><b style="color: navy;">PRE-SHIFT</b>: <b style="color: rgb(134, 96, 1);">Secrets to Restaurant Service</b></strong></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About the Book</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="buynow.html">Buy Now</a></li>
-                <li><a href="aboutauthor.html">About the Author</a></li>
-            </ul>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+    <title>Sandeep Paudel | Pre Shift | Sommelier</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Sandeep</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Book</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
 
-    <div class="gallery">
-        <img src="./myimages/Amazon_Book.jpg" alt="">
-        <img src="./myimages/Ambar_Pub.jpg" alt="">
-        <img src="./myimages/Back Page.jpg" alt="">
+    <main class="l-main">
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Sandeep</span><br />
+            Author | Sommelier
+          </h1>
 
-    </div>
-    
-    <!-- <footer>
-        <p>&copy; 2023 Book Marketting</p>
-    </footer> -->
-</body>
+          <a href="#" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/sandeep-paudel-38170b2a/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/sandeep.paudel" target="_blank" class="home__social-icon"
+            ><i class="bx bxl-facebook-square"></i
+          ></a>
+          <a href="https://www.facebook.com/sandeep.paudel" target="_blank" class="home__social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/@sandeepneutron471" target="_blank" class="home__social-icon"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image class="home__blob-img" x="50" y="60" href="assets/img/author1.png" />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/author2.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Sandeep</h2>
+            <p class="about__text" style="text-align: justify">
+              Sandeep boasts over a decade of distinguished experience in mid to senior-level management
+              within the upscale dining scene of New York City. His expertise lies primarily in Michelin 1-
+              and 2-star establishments, a testament to his exceptional skills in the industry. <br /><br />As
+              a certified sommelier, Sandeep stands out as one of the very few, if not the first, hailing from
+              his home country. He's undertaken advanced sommelier training and successfully navigated the
+              rigorous examination process through the esteemed Court of Master Sommeliers Association
+              America. This achievement is especially notable considering the stringent prerequisites and the
+              limited number of individuals worldwide who hold the esteemed title of advanced sommelier.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Book</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">
+              <span style="color: #203968">PRE-SHIFT:</span>
+              <span style="color: #7d5e07">Secrets to Restaurant Service</span>
+            </h2>
+            <p class="skills__text">
+              "Pre-Shift: Secrets to Restaurant Service" unlocks the world of fine dining like never before.
+              From creating inviting atmospheres to perfecting service, this book offers expert insights and
+              real-life examples for those in the hospitality industry or curious about behind-the-scenes of
+              fine dining. <br /><br />This exceptional guide dives deep into service nuances, sales tactics,
+              and guest issue resolution, presenting 28 challenging scenarios and insightful conversational
+              examples. Whether you're a beginner, manager, owner, or aspiring restaurateur, the book equips
+              with the skills needed to create unforgettable dining experiences. It's a must-read for
+              delivering exceptional guest service in any industry.
+            </p>
+          </div>
+
+          <div>
+            <img src="assets/img/book_front.jpg" alt="" class="skills__img" />
+            <div class="btn__groups">
+              <a target="blank" href="https://a.co/d/hRiLxwh"><div class="btn__amazon"></div></a>
+              <a
+                class="btn_daraz"
+                href="https://www.daraz.com.np/products/pre-shift-secrets-to-restaurant-i127837642-s1034822124.html"
+                target="_blank"
+              >
+                Buy on Daraz
+                <i style="font-size: 2.4rem; color: #fff" class="bx bxs-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service section" id="services">
+        <h1 class="section-title">Services</h1>
+        <div class="skills__container service-gap bd-grid">
+          <div>
+            <img src="assets/img/training_class.jpg" alt="" class="skills__img" />
+          </div>
+          <div>
+            <h2 class="skills__subtitle">Elevate Your Hospitality Skills with our Training Program</h2>
+            <p class="skills__text">
+              Join an industry-leading training course designed for hotel and restaurant staff. Elevate your
+              culinary and service skills under the guidance of expert chef Michael Johnson.
+            </p>
+          </div>
+        </div>
+        <div class="skills__container service_container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Master the English Language with One-to-One Lessons</h2>
+            <p class="skills__text">
+              Meet your experienced tutor Sandeep Paudel and see your english skills skyrocket. Whether you're
+              a beginner or advanced learner, Sandeep will help you master the English language. He's a native
+              speaker with over 10 years of experience teaching English to students of all ages and levels.
+              His lessons are fun, engaging, and designed to help you reach your goals. If you're interested
+              in learning English, contact Sandeep today to schedule your first lesson.
+            </p>
+          </div>
+
+          <div>
+            <img src="assets/img/english_class.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <a href="" class="work__img">
+            <img src="assets/img/work1.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work2.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work3.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work4.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work5.jpg" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/work6.jpg" alt="" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__title">Sandeep</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p class="footer__copy">&#169; sandeepneutron. All rigths reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
